@@ -3,5 +3,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.trully.sdk</groupId>
   <artifactId>TrullyKotlinSDK</artifactId>
-  <version>0.0.10</version>  
+  <version>0.0.11</version>  
 </project>
