@@ -4,7 +4,6 @@
   <groupId>ai.trully.sdk</groupId>
   <artifactId>TrullyKotlinSDK</artifactId>
   <version>0.0.24</version>  
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>androidx.appcompat</groupId>
