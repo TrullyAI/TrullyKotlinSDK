@@ -1,5 +1,5 @@
 install:
   - FILE="-Dfile=trully-sdk-kotlin.aar"
   - mvn install:install-file $FILE -DpomFile=pom.xml -DgroupId=ai.trully.sdk
-    -DartifactId=TrullyKotlinSDK -Dversion=1.0.5 -Dpackaging=aar
+    -DartifactId=TrullyKotlinSDK -Dversion=1.0.7 -Dpackaging=aar
     -DgeneratePom=true

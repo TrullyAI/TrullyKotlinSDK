@@ -5,7 +5,7 @@
 
   <groupId>ai.trully.sdk</groupId>
   <artifactId>TrullyKotlinSDK</artifactId>
-  <version>1.0.5</version>  
+  <version>1.0.7</version>  
   <packaging>aar</packaging>
 
   <dependencies>
@@ -70,4 +70,21 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>com.simpligility.maven.plugins</groupId>
+            <artifactId>android-maven-plugin</artifactId>
+            <version>4.6.0</version>
+            <extensions>true</extensions>
+            <configuration>
+                <sdk>
+                    <path>${env.ANDROID_HOME}</path>
+                </sdk>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 </project>
