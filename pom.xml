@@ -5,7 +5,7 @@
 
   <groupId>ai.trully.sdk</groupId>
   <artifactId>TrullyKotlinSDK</artifactId>
-  <version>1.1.1</version>  
+  <version>1.1.2</version>  
   <packaging>aar</packaging>
 
   <dependencies>
